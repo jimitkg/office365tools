@@ -7,4 +7,4 @@ Collection of scripts that comes in handy in managing office 365.
 * Enhanced-HTML2 PowerShell module
 * MSOnline PowerShell module
 * ExchangeOnline V2 module
-* Exchange Shell commands (*applies to a few scripts onlly)
+* Exchange Shell - (On Prem management)

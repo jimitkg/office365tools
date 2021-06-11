@@ -1,5 +1,5 @@
 $reportoutputpath = "C:\Temp"
-$reportgeneratedtag = (Get-Date -Format "yyyyMMdd_HHmmss")
+$reportgeneratedtag = (Get-Date -Format "yyyyMMdd-HHmmss")
 $reportoutputfilename = "ExchangeMailboxSummaryDocument_$reportgeneratedtag.xlsx" 
 $reportdatafullpath = Join-Path $reportoutputpath -ChildPath $reportoutputfilename   
 $AdminCredential = Get-Credential 

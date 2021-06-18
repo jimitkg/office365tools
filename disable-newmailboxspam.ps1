@@ -1,6 +1,7 @@
 
 <#
 Disable junk mail configuration on new mailboxes. Daily Schedule
+Can be scheduled via windows task scheduler
 #>
 
 
@@ -42,7 +43,6 @@ foreach ($result in $results) {
             Write-EventLog -LogName Application -Source "ExchangeOnline” -EntryType Information -EventId 1 -Message $outputmsg
     }
 }
-#>
 
    Disconnect-ExchangeOnline
 

@@ -8,4 +8,4 @@ Collection of scripts that comes in handy in managing office 365.
 * MSOnline PowerShell module
 * ExchangeOnline V2 module
 * Exchange Shell
-* SMTP relay server
+* SMTP server
